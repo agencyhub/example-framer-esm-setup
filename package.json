@@ -1,7 +1,7 @@
 {
   "name": "esmbuild",
   "version": "1.0.6",
-  "main": "/src/index.js",
+  "main": "",
   "license": "MIT",
   "author": {
     "name": "Koen Bok"
@@ -13,7 +13,7 @@
     "release": "yarn run build; mkdir -p release; cp -Rf dist release/$npm_package_name@$npm_package_version"
   },
   "devDependencies": {
-    "@types/react": "^17.0.14",
+    "@types/react": "^17.0.14", 
     "esbuild": "^0.12.15",
     "framer-motion": "^4.1.17",
     "fs-extra": "^10.0.0",
